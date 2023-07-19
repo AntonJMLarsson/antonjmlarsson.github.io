@@ -4,5 +4,5 @@ import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-	site: 'https://antonjmlarsson.github.io',
+	site: 'http://antonlarsson.com',
   })
