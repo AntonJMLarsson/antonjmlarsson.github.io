@@ -1,6 +1,7 @@
 ---
 import HeaderLink from './HeaderLink.astro';
 import { SITE_TITLE } from '../consts';
+import { Icon } from 'astro-icon'
 ---
 
 <header>
@@ -11,9 +12,9 @@ import { SITE_TITLE } from '../consts';
 		<HeaderLink href="/">Home</HeaderLink>
 		<HeaderLink href="/blog">Blog</HeaderLink>
 		<HeaderLink href="/about">About</HeaderLink>
-		<HeaderLink href="/publications">Publications</HeaderLink>
-		<HeaderLink href="https://twitter.com/AntonJohnAnton" target="_blank">Twitter</HeaderLink>
-		<HeaderLink href="https://github.com/AntonJMLarsson" target="_blank">GitHub</HeaderLink>
+		<HeaderLink href="https://twitter.com/AntonJohnAnton" target="_blank" > <Icon name="mdi:twitter"/>Twitter</HeaderLink>
+		<HeaderLink href="https://github.com/AntonJMLarsson" target="_blank"><Icon name="mdi:github"/>GitHub</HeaderLink>
+		<HeaderLink href="https://scholar.google.com/citations?user=ZJ2smDIAAAAJ" target="_blank"><Icon name="simple-icons:googlescholar"/>Scholar</HeaderLink>
 	</nav>
 </header>
 <style>
